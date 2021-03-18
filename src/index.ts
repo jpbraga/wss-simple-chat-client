@@ -1,6 +1,6 @@
 import { WSSClient } from "./wssClient";
 import jwt = require('jsonwebtoken');
-import { Guid } from "../src/util/guid";
+import { Guid } from "./util/guid";
 import readline = require('readline');
 import { Environment } from "./util/environment";
 import { ENV_VARS } from "./util/consts/env.vars";

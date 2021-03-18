@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const wssClient_1 = require("./wssClient");
 const jwt = require("jsonwebtoken");
-const guid_1 = require("../src/util/guid");
+const guid_1 = require("./util/guid");
 const readline = require("readline");
 const environment_1 = require("./util/environment");
 const env_vars_1 = require("./util/consts/env.vars");

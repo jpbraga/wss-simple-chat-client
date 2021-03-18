@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:  # containers. same as docker run
+  nodejs: 
+    image: jpbraga/wsssimplechatclient
+    environment:
+      JWT_SECRET: n5GySGhWlN9pWQBvmrnmJdKxmw-JTX0lKBSEYpYuOZY
+      WSS_ADDRESS: ws://localhost:8080
+    restart: always
+    
